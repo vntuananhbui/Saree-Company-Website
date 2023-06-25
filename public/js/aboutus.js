@@ -31,6 +31,6 @@
 	// presets 2
 	if ($('.circle-red').length > 0) {
 		$('.circle-red').circleProgress({
-			fill: {color: "#276bd0"},
+			fill: {color: "#f3474b"},
 		});
 	}
