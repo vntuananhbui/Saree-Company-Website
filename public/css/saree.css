@@ -74,26 +74,7 @@
   margin: 0 auto; /* Center the div itself */
 }
 
-@media (max-width: 768px) {
-  /* Show the div only on screens with a maximum width of 768px (responsive mode) */
-  .responsive-div {
-    margin-top: 20px;
-    display: block;
-  }
-  .head img {
-    display: none; /* Show the image by default */
-  }
-  .top-head {
-    justify-content: center; /* Center the items in responsive mode */
-  }
 
-  .search {
-    margin-left: auto; /* Push the hamburger icon to the right in responsive mode */
-  }
-  .translate {
-    display: none;
-  }
-}
 /* 
 Dropdown */
 .dropdown:hover .dropdown-menu {
@@ -579,24 +560,7 @@ Dropdown */
   background-color: #276bd0;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
-  .contact-section .row {
-      flex-direction: column;
-  }
 
-  .contact-section .col-md-6 {
-      flex-basis: 100%;
-  }
-
-  .contact-section .picture-container {
-      order: 2;
-  }
-
-  .contact-section .content-container {
-      order: 1;
-  }
-}
 
 
   
@@ -761,44 +725,8 @@ a {
   font-weight: normal;
 }
 
-/* MEDIA QUERIES */
-@media screen and (max-width: 1285px) {
-  .cards-wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 
-@media screen and (max-width: 900px) {
-  .cards-wrapper {
-    grid-template-columns: 1fr;
-  }
-  .info {
-    justify-content: center;
-  }
-  .sub-card-grid-space .num {
-    margin-left: 0;
-    text-align: center;
-  }
-}
 
-@media screen and (max-width: 500px) {
-  .cards-wrapper {
-    padding: 4rem 2rem;
-  }
-  .sub-card {
-    max-width: calc(100vw - 4rem);
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
-  .info h1 {
-    margin: 0;
-  }
-}
 
   
   
@@ -1026,6 +954,10 @@ Footer */
     text-align: center;
   }
 
+  .footer-distributed .footer-left iframe{
+    width: fit-content;
+  }
+
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
@@ -1033,5 +965,86 @@ Footer */
 		margin-left: 0;
 	}
 
+
 }
 
+@media (max-width: 768px) {
+  /* Show the div only on screens with a maximum width of 768px (responsive mode) */
+  .responsive-div {
+    margin-top: 20px;
+    display: block;
+  }
+  .head img {
+    display: none; /* Show the image by default */
+  }
+  .top-head {
+    justify-content: center; /* Center the items in responsive mode */
+  }
+
+  .search {
+    margin-left: auto; /* Push the hamburger icon to the right in responsive mode */
+  }
+  .translate {
+    display: none;
+  }
+
+
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .info {
+    justify-content: center;
+  }
+  .sub-card-grid-space .num {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .sub-card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info h1 {
+    margin: 0;
+  }
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .contact-section .row {
+      flex-direction: column;
+  }
+
+  .contact-section .col-md-6 {
+      flex-basis: 100%;
+  }
+
+  .contact-section .picture-container {
+      order: 2;
+  }
+
+  .contact-section .content-container {
+      order: 1;
+  }
+}
