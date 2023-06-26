@@ -390,6 +390,7 @@ Dropdown */
 }
 .alert {
     position: fixed;
+    
     top: 5%;
     right: 2%;
     background: #276bd0;
@@ -408,7 +409,7 @@ Dropdown */
 {
     display: flex;
     flex-direction: column;
-    gap: 70px;
+    gap: 35px;
     list-style: none;
     text-align: center;
 }
@@ -1050,3 +1051,4 @@ Footer */
       order: 1;
   }
 }
+
