@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./public/css/homepage.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link href='https://fonts.googleapis.com/css?family=Kanit' rel='stylesheet'>
+
+
+
+
+<!--FONT AWESOME-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+  <title>Document</title>
+</head>
+<body>
+  <!-- Navbar -->
+ <div class="head">
+              <img src="./public/img/LOGO.png" alt="saree-logo"><span></span>
+            </div>
+  <nav class="navbar navbar-expand-md bg-body-tertiary ">
+    
+    <div class="container-xl">
+      <!-- <a class="navbar-brand" href="#">
+        <img src="./public/img/slogo.png" alt="">
+      </a> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars"></i>
+      </button>
+      
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Typical Project</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About Us <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Overview</a></li>
+              <li><a class="dropdown-item" href="#">Core Value</a></li>
+              <li><a class="dropdown-item" href="#">Vision - Mission</a></li>
+              <li><a class="dropdown-item" href="#">History</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Service <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Design - Consultancy</a></li>
+              <li><a class="dropdown-item" href="#">Supply Equipment</a></li>
+              <li><a class="dropdown-item" href="#">Contruction and Installation</a></li>
+              <li><a class="dropdown-item" href="#">Supply Equipment</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Capacity</a>
+          </li>
+         
+        </ul>
+        <div class="search-and-icons">
+          <form class="d-flex mb-2 me-2" role="search">
+            <input class="form-control me-2" type="search" aria-label="Search">
+          </form>
+          <div class="user-icons d-flex mb-2">
+            <div class="out">
+              <img src="./public/img/icon/usicon.png" style="height: 30px; width: 30px;" class="out">
+              <span>        </span>
+              <img src="./public/img/icon/vietnamicon.png" style="height: 30px; width: 30px;" class="out">
+            </div>
+          </div>
+        </div>
+        <div class="contact-info d-md-flex">
+          <p>+84 909026262 | +84 2837.547607 </p>
+          <p><a href="mailto:saree@vnn.vn">saree@vnn.vn</a></p>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+<!-- Banner -->
+  <div class="">
+    <div class="main-header pt-lg-3 pt-2 position-absolute container-fluid">
+      <nav class="d-flex justify-content-between align-items-center px-md-4 px-2"> 
+        <div class="mobile-menu d-block d-sm-none">
+          <a class="nav-link link-light" href="#"><i class="fa-solid fa-bars"></i></a>
+        </div>
+      </nav>
+    </div>
+    <div id="mainBanner" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+      <div class="carousel-inner">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <!-- <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#mainBanner" data-bs-slide-to="4" aria-label="Slide 5"></button> -->
+        </div>
+        <div class="carousel-item active" data-bs-interval="7000">
+          <img src="./public/img/banner1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption px-md-5">
+            <h5>CONSULTANCY</h5>
+            <hr class="bg-light border-4 border-top border-light">
+            <p>Conduct construction and installation with a professional team of </p>
+            <p>refrigeration systems, air conditioning systems, commercial and industrial cold storage.</p>
+            <!-- <div class="banner-btn">
+              <button type="button" class="btn btn-secondary px-lg-5 px-md-4 px-2 py-2 rounded-0 border">Lorem Ipsum</button>
+              <button type="button" class="btn btn-success px-lg-5 px-md-4 px-2 py-2 rounded-0 border">Dolor Iseter</button>
+            </div> -->
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="7000">
+          <img src="./public/img/banner2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption px-md-5">
+            <h5>INSTALLATION</h5>
+            <hr class="bg-light border-4 border-top border-light">
+            <p>Some representative placeholder content for the first slide.</p>
+            
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="7000">
+          <img src="./public/img/banner4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption px-md-5">
+            <h5>DESIGN</h5>
+            <hr class="bg-light border-4 border-top border-light">
+            <p>Some representative placeholder content for the first slide.</p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- new -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 p-0">
+        <div class="box box-1">
+          <div class="box-1-content">
+            <h1>147</h1>
+            <p>Completed Projects</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-0">
+        <div class="box box-2">
+          <div class="box-1-content">
+            <h1>25+</h1>
+            <p>Years Experience</p>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-0">
+        <div class="box box-3">
+          <h4>Mastering Industrial Refrigeration - Saree: All Supply Solution</h4>
+          <div class="box-3-option1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="61" height="65" viewBox="0 0 61 65" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M60.1253 30.7284L57.4018 29.6363V27.8998C57.4401 17.2416 50.2284 7.73221 39.4391 4.21502V1.76765C39.4391 1.0412 38.8068 0.45166 38.0283 0.45166H22.9296C22.1511 0.45166 21.5189 1.0412 21.5189 1.76765V4.22795C10.7295 7.74514 3.51785 17.2545 3.55611 27.9127V29.6626L0.860812 30.7284C0.338586 30.934 0 31.4116 0 31.9392V38.8473C0 39.5733 0.632218 40.1629 1.41125 40.1629H3.24574V42.7949C3.24574 43.5209 3.87748 44.1104 4.65651 44.1104H9.72239C10.2035 45.7578 10.9103 47.3422 11.8247 48.821L8.24084 52.1634C7.69327 52.6762 7.69327 53.5052 8.24084 54.0185L14.2378 59.6107C14.7878 60.1213 15.6768 60.1213 16.2273 59.6107L19.8111 56.2688C21.3931 57.1214 23.0865 57.7792 24.8488 58.2291V62.9531C24.8488 63.6791 25.481 64.2686 26.26 64.2686H34.7261C35.5051 64.2686 36.1374 63.6791 36.1374 62.9531V58.2291C37.9039 57.7805 39.6026 57.1227 41.1889 56.2688L44.7732 59.6107C45.3232 60.1213 46.2122 60.1213 46.7626 59.6107L52.7596 54.0185C53.3072 53.5052 53.3072 52.6762 52.7596 52.1634L49.1753 48.821C50.0897 47.3422 50.797 45.7578 51.2781 44.1104H56.3435C57.1225 44.1104 57.7547 43.5209 57.7547 42.7949V40.1629H59.5892C60.3683 40.1629 61 39.5733 61 38.8473V31.9392C60.9971 31.4076 60.6519 30.93 60.1253 30.7284ZM24.3126 3.09656H36.6171V25.0836H24.3408L24.3126 3.09656ZM50.2479 41.4789H54.9465L54.9327 40.1629H42.0215C41.3778 45.1156 37.1913 49.0185 31.8801 49.6197C25.5049 50.3421 19.7097 46.1078 18.9364 40.1629H6.03955V41.4789H10.7381C11.4153 41.4642 12.0064 41.9012 12.1494 42.518C12.6415 44.572 13.5305 46.5248 14.7739 48.2814C15.1364 48.8014 15.0589 49.4868 14.5903 49.926L11.2178 53.0709L15.211 56.795L18.5835 53.6502C19.055 53.2131 19.7901 53.1409 20.3477 53.4789C22.2424 54.629 24.3466 55.4447 26.556 55.887C27.2179 56.0199 27.6866 56.5711 27.6708 57.2026V61.6763H33.3148V57.2423C33.2995 56.6108 33.7677 56.0592 34.4296 55.9263C36.6395 55.483 38.7432 54.6669 40.6384 53.5186C41.196 53.1801 41.9311 53.2528 42.4021 53.6894L45.7746 56.8342L49.8104 53.0972L46.4379 49.9524C45.9697 49.5131 45.8918 48.8277 46.2547 48.3077C47.4866 46.5404 48.3613 44.5787 48.8367 42.518C48.9792 41.9012 49.5708 41.4642 50.2479 41.4789ZM21.8149 40.1629H39.1851C38.4089 44.6394 33.8877 47.6817 29.0878 46.9579C25.3428 46.3933 22.4065 43.6552 21.801 40.1629H21.8149ZM2.80811 37.5314H58.1918V32.8338L55.4687 31.7417C54.9465 31.5365 54.6079 31.0589 54.6079 30.5314V27.8994C54.6476 18.6981 48.6406 10.411 39.4672 7.01733V26.3996C39.4672 27.1256 38.835 27.7152 38.056 27.7152H22.9296C22.1505 27.7152 21.5188 27.1256 21.5188 26.3996V7.01733C12.3607 10.4123 6.36087 18.6834 6.39195 27.8731V30.5046C6.39195 31.0326 6.05337 31.5102 5.53114 31.7154L2.80811 32.8075V37.5314Z" fill="#F4AF00"/>
+            </svg>
+              <div class="box-3-option1-content">
+              <h5>CONSULTING - DESIGN</h5>
+              <p>Practical Experts in Industrial Refrigeration</p>
+              </div>
+          </div>
+          <div class="box-3-option1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="62" height="68" viewBox="0 0 62 68" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M19.8829 66.1777L19.8829 19.452L43.1004 19.452C43.873 19.452 44.5 18.8526 44.5 18.1135V2.18127C44.5 1.44213 43.873 0.842285 43.1004 0.842285L1.89964 0.842285C1.12701 0.842285 0.5 1.44213 0.5 2.18127L0.5 66.1777C0.5 66.9169 1.12701 67.5167 1.89964 67.5167L18.4832 67.5167C19.2558 67.5167 19.8829 66.9169 19.8829 66.1777ZM41.7007 3.51978V16.7743L19.0571 16.7743L5.27234 3.51978L41.7007 3.51978ZM3.29932 5.42102L3.29932 64.8391L17.0841 65.0265V60.608H13.6132C12.8406 60.608 12.2136 60.0086 12.2136 59.2694C12.2136 58.5303 12.8406 57.9305 13.6132 57.9305H17.0841V55.2529H13.6132C12.8406 55.2529 12.2136 54.6531 12.2136 53.914C12.2136 53.1748 12.8406 52.575 13.6132 52.575H17.0841V49.8975H10.6466C9.87394 49.8975 9.24693 49.2976 9.24693 48.5585C9.24693 47.8198 9.87394 47.2199 10.6466 47.2199H17.0841L17.0841 44.542H13.6132C12.8406 44.542 12.2136 43.9421 12.2136 43.2034C12.2136 42.4643 12.8406 41.8645 13.6132 41.8645H17.0841V39.1869H13.6132C12.8406 39.1869 12.2136 38.5871 12.2136 37.848C12.2136 37.1088 12.8406 36.509 13.6132 36.509H17.0841V33.8315H10.6466C9.87394 33.8315 9.24693 33.2316 9.24693 32.4925C9.24693 31.7533 9.87394 31.1539 10.6466 31.1539L17.0841 31.1539V28.476L13.6132 28.476C12.8406 28.476 12.2136 27.8761 12.2136 27.137C12.2136 26.3983 12.8406 25.7985 13.6132 25.7985L17.0841 25.7985V23.1205L13.6132 23.1205C12.8406 23.1205 12.2136 22.5211 12.2136 21.782C12.2136 21.0428 12.8406 20.443 13.6132 20.443L17.0841 20.443V18.609L3.29932 5.42102Z" fill="#F4AF00"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M21.5 34.5711L21.5 34.5746L21.5 34.5848V34.5711ZM21.5 34.5746C21.5037 34.8614 21.602 35.1403 21.7806 35.3696L31.7037 48.4164C31.7037 48.4164 31.816 48.4976 31.8721 48.5517C31.8939 48.5728 31.9094 48.5939 31.9242 48.6142C31.9475 48.646 31.9694 48.6759 32.0124 48.7008L51.4509 62.492C52.895 63.7304 54.9512 64.0524 56.7278 63.3176C57.6639 62.8695 58.4653 62.1998 59.058 61.3687L60.2367 59.7853C61.0044 58.8487 61.4467 57.7024 61.5 56.5098C61.4424 54.8508 60.533 53.328 59.0718 52.4496L39.5772 38.7125C39.4973 38.668 39.4116 38.6327 39.3246 38.6043C39.3246 38.6043 39.2404 38.6043 39.1981 38.5231L23.3527 33.2987C22.6187 33.0593 21.8215 33.4395 21.5747 34.1473C21.5263 34.2849 21.5012 34.429 21.5 34.5746ZM57.4155 54.6695C58.1299 55.0576 58.6099 55.7506 58.7069 56.5368C58.6479 57.1556 58.3939 57.7413 57.9773 58.2152L56.7981 59.7582C56.4866 60.2155 56.0628 60.5934 55.5629 60.8544L55.5533 60.8585C55.2911 60.9712 54.5208 61.3021 53.1209 60.3132L51.858 59.4197L54.0051 56.6047L56.1384 53.776L57.4155 54.6695ZM52.5597 53.8981L53.8792 52.1657L39.0858 41.7036L34.7911 47.3339L49.5845 57.796L50.9035 56.0769L39.4792 47.9564C39.4297 47.9252 39.3836 47.8926 39.3389 47.8559C38.7438 47.3784 38.6634 46.5244 39.1591 45.9506C39.6542 45.3767 40.5399 45.2983 41.1349 45.7772L52.5597 53.8981ZM36.5178 40.4854L32.8263 45.3308L30.5388 42.326L32.8543 39.2809L36.5178 40.4854ZM28.7984 40.0386L30.0756 38.3607L26.679 37.2507L28.7984 40.0386Z" fill="#F4AF00"/>
+              </svg>
+              <div class="box-3-option1-content">
+              <h5>CONSULTING - DESIGN</h5>
+              <p>Practical Experts in Industrial Refrigeration</p>
+              </div>
+          </div>
+          <div class="box-3-option1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="61" height="67" viewBox="0 0 61 67" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M49.8622 30.0525L49.8622 64.7543C49.8622 65.4958 49.2276 66.0975 48.4456 66.0975H41.2338C40.4518 66.0975 39.8172 65.4958 39.8172 64.7538L39.8172 31.7317C39.8172 30.9902 40.4518 30.3884 41.2338 30.3884H43.0052L43.0052 12.0502C43.0052 11.3087 43.6398 10.7065 44.4218 10.7065L53.0358 10.7065C54.8777 10.7065 56.1671 9.05413 56.9179 7.71086L48.6721 7.71086C47.8902 7.71086 47.2555 7.1091 47.2555 6.36714V3.06247L25.7197 3.06247L8.63294 10.2231L30.8485 10.2231C31.6305 10.2231 32.2656 10.8248 32.2656 11.5663V12.8026H33.9799C34.7619 12.8026 35.3965 13.4044 35.3965 14.1459C35.3965 14.8874 34.7619 15.4891 33.9799 15.4891H32.2656V18.7406H33.9799C34.7619 18.7406 35.3965 19.3428 35.3965 20.0843C35.3965 20.8258 34.7619 21.4275 33.9799 21.4275H32.2656V24.679H33.9799C34.7619 24.679 35.3965 25.2807 35.3965 26.0222C35.3965 26.7637 34.7619 27.3655 33.9799 27.3655H32.2656L32.2656 30.3884H33.4412C34.2232 30.3884 34.8583 30.9902 34.8583 31.7317L34.8583 64.7538C34.8583 65.4953 34.2232 66.0971 33.4412 66.0971H25.2944C24.5124 66.0971 23.8778 65.4953 23.8778 64.7538L23.8778 44.4005C19.6894 42.4819 15.2408 41.1263 10.6587 40.3702C3.4614 39.255 1.56282 34.2575 1.56282 31.7722C1.56282 31.0302 2.19744 30.4284 2.97944 30.4284L29.4319 30.4284L29.4319 12.9637L1.9171 12.9637C1.23687 12.9783 0.643055 12.5322 0.5 11.9022V11.62C0.504322 11.0893 0.837475 10.61 1.35016 10.3978L24.8551 0.496569C25.0337 0.419642 25.2267 0.378219 25.4221 0.375488L48.6721 0.375488C49.4541 0.375488 50.0892 0.977248 50.0888 1.71875V5.02388L59.0147 4.93011C59.1679 4.92465 59.3224 4.94195 59.4698 4.98246C60.2206 5.19185 60.6512 5.93745 60.4318 6.64936C60.3469 6.95844 58.3067 13.367 53.0502 13.367H45.8672V21.2127L53.7731 21.2127C59.4401 21.4949 60.4885 28.2522 60.4885 28.5344C60.4971 28.5963 60.5 28.6596 60.5 28.721C60.4942 29.4625 59.8539 30.0593 59.0719 30.0525L49.8622 30.0525ZM32.0247 35.7625V33.0755L4.66589 33.0619C5.19011 34.5936 6.69168 36.9847 11.1263 37.6697C16.3008 38.5296 21.3062 40.1282 25.9746 42.4123C26.4297 42.6486 26.713 43.1028 26.7115 43.5944L26.7115 63.3837H32.0247V62.2011H30.3104C29.5279 62.2011 28.8933 61.5993 28.8933 60.8578C28.8933 60.1163 29.5279 59.5146 30.3104 59.5146H32.0247V56.2632H30.3104C29.5279 56.2632 28.8933 55.6614 28.8933 54.9199C28.8933 54.1784 29.5279 53.5762 30.3104 53.5762H32.0247V50.3253H30.3104C29.5279 50.3253 28.8933 49.7235 28.8933 48.982C28.8933 48.2401 29.5279 47.6383 30.3104 47.6383H32.0247L32.0247 44.3874H30.3104C29.5279 44.3874 28.8933 43.7856 28.8933 43.0437C28.8933 42.3022 29.5279 41.7004 30.3104 41.7004H32.0247V38.4495H30.3104C29.5279 38.4495 28.8933 37.8473 28.8933 37.1058C28.8933 36.3643 29.5279 35.7625 30.3104 35.7625H32.0247ZM45.8384 30.3885V23.8324L53.6738 23.8324C55.7279 23.9398 56.7624 25.8744 57.2583 27.3119L48.4311 27.3119C47.6491 27.3119 47.0145 27.9137 47.0145 28.6556V30.3348L45.8384 30.3885ZM42.6509 33.0754L42.6509 63.4105H47.0284L47.0284 33.0754H42.6509Z" fill="#F4AF00"/>
+            </svg>
+              <div  class="box-3-option1-content">
+              <h5>CONSULTING - DESIGN</h5>
+              <p>Practical Experts in Industrial Refrigeration</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="about-section">
+    	<div class="container">
+        	<div class="row clearfix">
+            	
+                <!--Content Column-->
+                <div class="content-column col-md-6 col-sm-12 col-xs-12 reveal fade-left">
+                	<div class="inner-column">
+                    	<div class="sec-title">
+                    		<div class="title">About Us</div>
+                        	<h2>We Are The Leader In <br> Electro-Refrigeration
+                          </h2>
+                        </div>
+                        <div class="text">Saigon Refrigeration Engineering Co., Ltd is a leading provider of industrial refrigeration solutions. We specialize in design consultancy, equipment supply, manufacturing, installation, and maintenance of refrigeration equipment for various industries including marine processing, agriculture, and cold storage. With our experienced team of engineers and technicians, we have successfully completed numerous large-scale projects nationwide. Our expertise and dedication ensure that we meet the specific needs of our customers in the most efficient and reliable manner.</div>
+                        <div class="email">Contact: <span class="theme_color">saree@gmail.com</span></div>
+                        <a href="about.html" class="theme-btn btn-style-three">Read More</a>
+                    </div>
+                </div>
+                
+                <!--Image Column-->
+                <div class="image-column col-md-6 col-sm-12 col-xs-12 reveal fade-right">
+                	<div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
+                    	<div class="image">
+                        	<img src="./public/img/aboutus.jpg" alt="">
+                            <!-- <div class="overlay-box">
+                            	<div class="year-box"><span class="number">5</span>Years <br> Experience <br> Working</div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </section>
+  </div>
+  
+  <!-- ABOUT US -->
+  <div class="section-service reveal fade-left">
+    <div class="box-service box1">
+      <img src="./public/img/category1.jpg" alt="Image">
+    </div>
+    <div class="box-service box2">
+      <div class="overlay"></div>
+      <img src="./public/img/category1.jpg" alt="Image">
+      <div class="content">
+        <h1>SUPPLY EQUIPMENT</h1>
+        <p>SAREE is one of the leading companies in Vietnam specializing in industrial refrigeration.</p>
+      </div>
+    </div>
+    <div class="box-service box3">
+      <div class="overlay2"></div>
+      <img src="./public/img/category1.jpg" alt="Image">
+      <div class="content">
+        <h1>CONSTRUCTION INSTALLATION</h1>
+        <p>High-quality construction force along with a team of experienced engineers and experts.</p>
+      </div>
+    </div>
+    <div class="box-service box4">
+      <div class="overlay"></div>
+      <img src="./public/img/category1.jpg" alt="Image">
+      <div class="content">
+        <h1>REPAIR - MAINTENANCE</h1>
+        <p>Periodic maintenance, ensuring the long-term & stable operation of the works in accordance with design parameters.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Project -->
+  
+  <section class="news" id="typicalProject">
+    <div class="titletext">
+        <h4>Our Work</h4>
+        <h1><span>TYPICAL PROJECTS</span></h1>
+    </div>
+    
+    <div class="container1 reveal fade-left">
+        <div class="card">
+          <div class="card__header">
+            <img src="./public/img/typicalProject/thehemoi.png" alt="card__image" class="card__image" width="600" height="250px">
+          </div>
+          <div class="card__body">
+            <span class="tag">Business Company</span>
+            <h4>NEW GENERATION SEAFOOD JOINT STOCK COMPANY</h4>
+            <p>Performance items: Supplying high efficiency cascade refrigeration system using NH3 gas…</p>
+          </div>
+          <div class="card__footer">
+            <!-- <div class="user">
+              <img src="https://i.pravatar.cc/40" alt="user__image" class="user__image">
+              <div class="user__info">
+                <h5>User 1</h5>
+                <small>2h ago</small>
+              </div>
+            </div> -->
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="./public/img/typicalProject/hoaphat.png" alt="card__image" class="card__image" width="600" height="250px">
+          </div>
+          <div class="card__body">
+            <span class="tag">Business Company</span>
+            <h4> HOA PHAT SEAFOOD IMPORT-EXPORT AND PROCESSING JOINT STOCK COMPANY</h4>
+            <p>Performance items: Provide a complete refrigeration system with a capacity of 150 tons of finished products per day and night…</p>
+          </div>
+          <div class="card__footer">
+            
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <img src="./public/img/typicalProject/khanhsung.png" alt="card__image" class="card__image" width="600" height="250px">
+          </div>
+          <div class="card__body">
+            <span class="tag">Business Company</span>
+            <h4>KHANH SUNG COMPANY LIMITED</h4>
+            <p>Performance items: Supply, transport, install complete refrigeration system using NH3 gas…</p>
+          </div>
+          <div class="card__footer">
+            
+          </div>
+        </div>
+   
+        <div class="card">
+            <div class="card__header">
+              <img src="./public/img/typicalProject/simmy.png" alt="card__image" class="card__image" width="600" height="250px">
+            </div>
+            <div class="card__body">
+              <span class="tag">Business Company</span>
+              <h4>SIMMY SEAFOOD CO., LTD</h4>
+              <p>Performance items: Supply, transport, and install complete refrigeration systems using NH3 gas including:…</p>
+            </div>
+            <div class="card__footer">
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img src="./public/img/typicalProject/nhatrang.jpg" alt="card__image" class="card__image" width="600" height="250px">
+            </div>
+            <div class="card__body">
+              <span class="tag">Business Company</span>
+              <h4>NHA TRANG JOINT STOCK COMPANY SEAFOODS F89</h4>
+              <p>Performance items: Supplying conveyor belt IQF 750kg/hour. Provide herringbone indoor unit for the stone cellar…</p>
+            </div>
+            <div class="card__footer">
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img src="./public/img/typicalProject/ntseaproduct.jpg" alt="card__image" class="card__image" width="600" height="250px">
+            </div>
+            <div class="card__body">
+              <span class="tag tag-blue">Business Company</span>
+              <h4>NHA TRANG SEAPRODUCT COMPANY</h4>
+              <p>Implementation items: Supplying IQF conveyor belts, water cooling heat exchangers Supplying compressors…</p>
+            </div>
+            <div class="card__footer">
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img src="./public/img/typicalProject/nhatrangf115.jpg" alt="card__image" class="card__image" width="600" height="250px">
+            </div>
+            <div class="card__body">
+              <span class="tag tag-blue">Business Company</span>
+              <h4>NHA TRANG SEAFOOD JOINT STOCK COMPANY F115</h4>
+              <p>Performance items: Supply, transport and install refrigeration systems for IQF conveyor belts, systems…</p>
+            </div>
+            <div class="card__footer">
+              
+            </div>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <img src="./public/img/typicalProject/ntsf.png" alt="card__image" class="card__image" width="600" height="250px">
+            </div>
+            <div class="card__body">
+              <span class="tag tag-blue">Business Company</span>
+              <h4>NTSF SEAFOODS JOINT STOCK COMPANY</h4>
+              <p>Implementation items: Supplying IQF 750kg/hour conveyor belt, herringbone indoor unit for stone cellar Supplying…</p>
+            </div>
+            <div class="card__footer">
+              
+            </div>
+          </div>
+    </div>
+  </section>
+  
+  <!-- Map -->
+  <section>
+    <div>
+      <img src="./public/img/map.png" style="width: 100%;" class="mapimg">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 p-0 reveal fade-left">
+          <div class="boxmap boxmap-1">
+            
+            <div class="boxmap-1-content">
+              
+              <div class="boxmap-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
+                <rect width="65" height="65" fill="#F4af00"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.6989 37.7565L52.9203 42.9777C54.3599 44.4172 54.3599 46.7594 52.9203 48.1989L51.0216 50.0975C45.8178 55.301 37.3961 55.3006 32.1928 50.0975L15.8932 33.79C10.7022 28.5993 10.7022 20.1531 15.8934 14.9622L17.796 13.0763C19.2317 11.6406 21.574 11.6406 23.0135 13.08L28.2336 18.2834C29.6882 19.7379 29.6682 22.0729 28.235 23.506L25.8616 25.8792C24.7683 26.9724 24.7685 28.7416 25.8616 29.8347L36.1488 40.1302C37.239 41.22 39.0135 41.2203 40.1041 40.1298L42.4775 37.7565C43.9169 36.3171 46.2594 36.3171 47.6989 37.7565ZM21.2745 14.8217C20.7931 14.3405 20.0125 14.3406 19.5326 14.8204L18.6668 15.6786L25.6242 22.6357L26.4945 21.7655C26.9755 21.2845 26.9755 20.5061 26.4945 20.0251L21.2745 14.8217ZM33.9336 48.3573L17.6339 32.0497C13.6176 28.0336 13.3968 21.7274 16.9549 17.4476L23.8921 24.3845C22.0693 26.4508 22.1453 29.5994 24.1208 31.5748L34.4076 41.8698L34.4079 41.8701C36.3813 43.8435 39.5299 43.9244 41.5988 42.0992L48.5361 49.0362C44.2698 52.588 37.9775 52.4011 33.9336 48.3573ZM50.3097 47.3288L51.18 46.4585C51.6598 45.9788 51.6598 45.198 51.1799 44.7181L45.9585 39.4969C45.4785 39.017 44.6978 39.0171 44.2179 39.4969L43.3478 40.3671L50.3097 47.3288Z" fill="white"/>
+              </svg>
+              </div>
+              <div class="boxmap-content">
+             
+              <h1>+84 909026262</h1>
+              <h1> +84 2837547608</h1>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0 reveal fade-left">
+          <div class="boxmap boxmap-2">
+            <div class="boxmap-1-content">
+              
+               <div class="boxmap-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
+                  <rect width="65" height="65" fill="#276bd0"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10 31.6875C10 20.92 19.8969 12 32.4121 12C44.9551 12 55 20.9401 55 31.6875C55 42.4288 44.962 51.375 32.4121 51.375C29.5045 51.375 26.6874 50.8964 24.0251 49.9513C21.333 52.5344 17.7119 54 13.9551 54C12.7813 54 12.196 52.5826 13.0229 51.7594C15.0007 49.7904 15.7978 46.9345 15.1413 44.2393C11.8231 40.7184 10 36.2744 10 31.6875ZM24.1713 47.2011C26.7636 48.2289 29.5362 48.7675 32.4121 48.7675C43.4132 48.7675 52.3809 41.0958 52.3809 31.6875C52.3809 22.2792 43.4132 14.6075 32.4121 14.6075C21.508 14.6075 12.6191 22.2792 12.6191 31.6875C12.6191 35.6982 14.284 39.5962 17.275 42.6633C17.4268 42.819 17.5376 43.0097 17.5972 43.2185C18.3535 45.8657 18.0359 48.6598 16.7935 51.0301C19.0484 50.4748 21.1185 49.2668 22.7109 47.5344C23.0808 47.1319 23.6622 46.9993 24.1713 47.2011Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M18 32C18 29.7944 19.7944 28 22 28C24.2056 28 26 29.7944 26 32C26 34.2056 24.2056 36 22 36C19.7944 36 18 34.2056 18 32ZM20.6667 32C20.6667 32.7352 21.2648 33.3333 22 33.3333C22.7352 33.3333 23.3333 32.7352 23.3333 32C23.3333 31.2648 22.7352 30.6667 22 30.6667C21.2648 30.6667 20.6667 31.2648 20.6667 32Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M28 32C28 29.7944 29.7944 28 32 28C34.2056 28 36 29.7944 36 32C36 34.2056 34.2056 36 32 36C29.7944 36 28 34.2056 28 32ZM30.6667 32C30.6667 32.7352 31.2648 33.3333 32 33.3333C32.7352 33.3333 33.3333 32.7352 33.3333 32C33.3333 31.2648 32.7352 30.6667 32 30.6667C31.2648 30.6667 30.6667 31.2648 30.6667 32Z" fill="white"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M39 32C39 29.7944 40.7944 28 43 28C45.2056 28 47 29.7944 47 32C47 34.2056 45.2056 36 43 36C40.7944 36 39 34.2056 39 32ZM41.6667 32C41.6667 32.7352 42.2648 33.3333 43 33.3333C43.7352 33.3333 44.3333 32.7352 44.3333 32C44.3333 31.2648 43.7352 30.6667 43 30.6667C42.2648 30.6667 41.6667 31.2648 41.6667 32Z" fill="white"/>
+                </svg>
+              </div>
+              <div class="boxmap-content">
+             
+              <h1> saree@vnn.vn</h1>
+              <h1>Tax: 0300958604</h1>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0 reveal fade-right">
+          <div class="boxmap boxmap-3">
+            <h4>SAREE ADDRESS</h4>
+            <div class="boxmap-3-option1">
+              <!--  -->
+                <div class="box-3-option1-content">
+                <h5>FACTORY</h5>
+                <p>Lot 25 Tan Tao, Tan Tao Industrial Park Tan Tao A, Binh Tan District, Ho Chi Minh City.</p>
+                </div>
+            </div>
+            <div class="boxmap-3-option1">
+                <div class="boxmap-3-option1-content">
+                <h5>OFFICE</h5>
+                <p>144 Nguyen Van Cu, Nguyen Cu Trinh, District 1, Ho Chi Minh City</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- Footer -->
+
+  <!--footer-->
+<footer class="padding_4x">
+  <div class="flex">
+    <section class="flex-content padding_1x">
+      <h3>Top Products</h3>
+      <a href="#">Frezzing Equipment</a>
+      <a href="#">Ice Making Equipment</a>
+      <a href="#">Refrigeration Equipment</a>
+      <a href="#">Cold Storage</a>
+    </section>
+    <section class="flex-content padding_1x">
+      <h3>Quick Links</h3>
+      <a href="#">About Us</a>
+      <a href="#">Brand Assets</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Terms of Service</a>
+    </section>
+    <section class="flex-content padding_1x">
+      <h3>Features</h3>
+      <a href="#">Jobs</a>
+      <a href="#">Brand Assets</a>
+      <a href="#">Investor Relations</a>
+      <a href="#">Terms of Service</a>
+    </section>
+    <section class="flex-content padding_1x">
+      <h3>Resources</h3>
+      <a href="#">Guides</a>
+      <a href="#">Research</a>
+      <a href="#">Experts</a>
+      <a href="#">Agencies</a>
+    </section>
+    <section class="flex-content padding_1x">
+      <h3>Newsletter</h3>
+      <p>You can trust us. we only send promo offers,</p>
+      <fieldset class="fixed_flex">
+        <input type="email" name="newsletter" placeholder="Your Email Address">
+        <button class="btn btn_2">Subscribe</button>
+      </fieldset>
+    </section>
+  </div>
+  <div class="flex">
+    <section class="flex-content padding_1x">
+      <p>Copyright ©2023 All rights reserved || Saree</p>
+    </section>
+    <section class="flex-content padding_1x">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-dribbble"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+    </section>
+  </div>
+</footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/js/bootstrap.bundle.min.js"></script> -->
+  <script src="./public/js/homepage.js"></script>
+  <script src="./public/js/reveal.js"></script>
+
+
+</body>
+</html>
