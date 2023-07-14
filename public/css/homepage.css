@@ -698,60 +698,6 @@ li.nav-item > a {
  
  
 
-@media screen and (max-width: 575px) {
-.carousel-caption h5 {
-  font-size: 2em;
-}
-.carousel-item img {
-  height: 30vh;
-}
-.carousel-caption p {
-  font-size: 0.75em;
-}
-.carousel-caption {
-   width: 100%;
-  opacity: 0;
-}
-.carousel-item.active .carousel-caption {
-   animation: sample 2.5s 1;
-  opacity: 1;
-}
-.carousel-caption * {
-  white-space: unset;
-}
-@keyframes sample {
-   0% {
-       opacity: 0;
-  }
- 50% {
-       opacity: 1;
-  }
-   100% {
-       opacity: 1;
-  }
-}
-.carousel-caption h5 {
-  -webkit-text-stroke: 1px #E2FADB;
-}
-hr.border-light {
-  max-width: 200px;
-}
-}
-
-@media screen and (max-width: 480px) {
-.carousel-caption {
-   padding: 40px;
-}
-.carousel-caption h5 {
-  font-size: 1.45em;
-}
-.carousel-caption p {
-  font-size: 0.7em;
-}
-.carousel-item img {
-  height: 30vh;
-}
-}
 
 
 
@@ -1174,6 +1120,11 @@ footer .flex:last-child a:hover{
 
 
 
+
+/* RESPONSIVE */
+
+
+
 /* Navbar Responsive */
 @media screen and (min-width: 1024px) {
   .navbar {
@@ -1208,7 +1159,7 @@ footer .flex:last-child a:hover{
 /* banner responsive */
 @media screen and (max-width: 991px) {
   .carousel-caption h5 {
-    font-size: 3.5em;
+    font-size: 1.5em;
   }
   .carousel-caption p {
     font-size: 1em;
@@ -1226,7 +1177,7 @@ footer .flex:last-child a:hover{
      left: auto;
   }
   .carousel-caption h5 {
-    font-size: 3.5em;
+    font-size: 1.5em;
   }
   .carousel-caption p {
     font-size: 1em;
@@ -1286,7 +1237,61 @@ footer .flex:last-child a:hover{
     bottom: 50%;
   }
   }
-  
+  @media screen and (max-width: 575px) {
+    .carousel-caption h5 {
+      font-size: 2em;
+    }
+    .carousel-item img {
+      height: 30vh;
+    }
+    .carousel-caption p {
+      font-size: 0.75em;
+    }
+    .carousel-caption {
+       width: 100%;
+      opacity: 0;
+    }
+    .carousel-item.active .carousel-caption {
+       animation: sample 2.5s 1;
+      opacity: 1;
+    }
+    .carousel-caption * {
+      white-space: unset;
+    }
+    @keyframes sample {
+       0% {
+           opacity: 0;
+      }
+     50% {
+           opacity: 1;
+      }
+       100% {
+           opacity: 1;
+      }
+    }
+    .carousel-caption h5 {
+      -webkit-text-stroke: 1px #E2FADB;
+    }
+    hr.border-light {
+      max-width: 200px;
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    .carousel-caption {
+       padding: 40px;
+    }
+    .carousel-caption h5 {
+      font-size: 1.45em;
+    }
+    .carousel-caption p {
+      font-size: 0.7em;
+    }
+    .carousel-item img {
+      height: 30vh;
+    }
+    }
+    
 
   /* footer responsive */
   @media (max-width:1100px){
